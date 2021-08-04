@@ -15,4 +15,4 @@ RUN ./install.sh esp32
 RUN pacman -S which --noconfirm
 RUN . ./export.sh
 
-
+RUN git checkout v4.2.2
