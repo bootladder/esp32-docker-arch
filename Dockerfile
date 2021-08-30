@@ -23,3 +23,9 @@ RUN git submodule update --init --recursive
 
 WORKDIR /opt/
 RUN git clone --recursive https://github.com/espressif/esp-adf.git
+
+
+# placeholders
+# RUN pacman -Sy unzip
+# install aws cli?  set creds?  that is user/account specific
+# RUN pacman -Sy mosquitto
